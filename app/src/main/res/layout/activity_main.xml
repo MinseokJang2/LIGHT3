@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mwnl_msjang.light.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TIME   "
+            android:textSize="25sp"
+            android:id="@+id/time"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LUX   "
+            android:textSize="25sp"
+            android:id="@+id/t_light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Degree    "
+            android:textSize="25sp"
+            android:id="@+id/t_gyro_x"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress "
+            android:textSize="25sp"
+            android:id="@+id/t_simil"/>
+
+     </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:text="   START_SAVE   "
+                android:id="@+id/button_submit"
+                android:layout_column="1"
+                android:textSize="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:text="   START_TEST   "
+                android:id="@+id/button_test"
+                android:textSize="25sp"
+                android:layout_column="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:text="   CLEAR               "
+                android:textSize="25sp"
+                android:id="@+id/button_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:text="   TURN_MEM     "
+                android:textSize="25sp"
+                android:id="@+id/button_turn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/inst_turn"
+            android:textSize="25sp"
+            android:text = "INSTRUCTION"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/inst_step_number"
+            android:textSize="25sp"
+            android:text = "STEP_NUMBER"/>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/imageView1"
+              android:src="@drawable/navigation"/>
+
+
+      </LinearLayout>
+</LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
